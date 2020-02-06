@@ -1,0 +1,120 @@
+
+body {
+   background: #D3C1C3;
+   color: #B48291;
+   font-family: 'Raleway', sans-serif;
+   font-size: 17px;
+   font-weight: 600;
+}
+h1, h2, h3{
+   font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  color: #25283D;
+  font-size: 32px;
+}
+h2{
+  color: #9D858D;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #B48291;
+    font-weight: 600;
+    font-size: 16px;
+}
+a:hover {
+  color: #9D858D;
+}
+
+ /* Custom design with class*/
+ .container{
+ width: 700px;
+ margin: 40px auto;
+ }
+ .card-white {
+ background-color: #F1E3E4;
+ padding: 10px;
+ box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+ border-radius: 4px;
+ margin: 25px 0px;
+ text-align: center;
+ }
+
+ .img-circle {
+ 	border-radius: 50%;
+ }
+ .btn-blue {
+ 	background-color: #9D858D;
+ 	color: #25283D;
+ 	padding: 5px 20px;
+ 	border-radius: 4px;
+ }
+ .btn-blue:hover {
+ 	background-color: #25283D;
+ 	color: #9D858D; 
+ }
+
+ .list-inline {
+ 	list-style:  none;
+ 	padding-left: 0px;
+ }
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #B48291;
+}
+.list-inline i:hover {
+	color: #D3C1C3;
+}
+#introduction p {
+	margin-bottom: 40p;
+}
+
+@media (max-width: 500px) {
+   .container {
+   	width: 400px;
+    }
+}
+
+@media (max-width: 760px) {
+   .container {
+   	width: 600px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
